@@ -1,0 +1,12 @@
+BODY { 
+    padding:0; 
+    margin:0
+}
+
+:root{
+    --font: 'Assistant', sans-serif;  /* Site Main Font */
+    
+    --nav-color:    #000000;        /* Navigation area background color        */
+    --nav-text:     #ffffff;        /* Navigation area foreground/text color   */
+    --nav-highlight:#ffaa00;        /* Navigation area text hover/active color */
+}
