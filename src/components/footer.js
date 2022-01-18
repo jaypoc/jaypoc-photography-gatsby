@@ -5,8 +5,8 @@ const Footer = () => {
     return (
             <footer className={siteFooter}>
                 <div className={siteFooterBody}>
-                   All the images appearing on this site, <br />
-                   except when otherwise credited, are<br />
+                   All the content and images appearing on this<br/>
+                   site, except when otherwise credited, are<br />
                    Copyright &copy; 1995-2022 Jason Bauman.<br /> 
                    All rights reserved.
                 </div>

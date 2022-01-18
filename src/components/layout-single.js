@@ -8,8 +8,6 @@ const LayoutSingle = ({ children }) => {
         <div class="site-container">
             <Header></Header>
             <main>
-                
-                Single Width
                 {children}     
             </main>
             <Footer></Footer>

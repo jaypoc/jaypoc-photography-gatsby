@@ -8,7 +8,6 @@ const Layout = ({ pageTitle, children }) => {
         <div class="site-container">
             <Header></Header>
             <main>
-                Sidebar
                 {children}     
             </main>
             <Footer></Footer>

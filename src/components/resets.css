@@ -23,5 +23,11 @@ BODY {
 }
 
 .page {
+    margin:20px;
     background-color: var(--body-bg);
+    padding:20px 20px 0 20px;
+}
+
+.page img {
+    padding:20px;
 }
