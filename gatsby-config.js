@@ -3,6 +3,8 @@ module.exports = {
         siteUrl: `https://jaypoc.photography`,
     },
     plugins: [
+        `gatsby-plugin-sitemap`
+        
 
     ]
 }

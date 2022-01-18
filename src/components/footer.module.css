@@ -1,0 +1,20 @@
+.siteFooter {
+    margin-top: auto;
+    padding: 40px 50px 0 40px;
+    display: flex;
+    justify-content: center;
+    align-content: flex-start;
+    background: var(--nav-color);
+    color: var(--nav-text);
+    filter: brightness(70%);
+}
+
+.siteFooterBody {
+    margin-top: auto;
+    padding-bottom:20px;
+    display: flex;
+    flex-wrap: wrap;
+    width:1100px;
+    justify-content: space-between;
+    align-items: center;
+}

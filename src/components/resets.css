@@ -9,4 +9,19 @@ BODY {
     --nav-color:    #000000;        /* Navigation area background color        */
     --nav-text:     #ffffff;        /* Navigation area foreground/text color   */
     --nav-highlight:#ffaa00;        /* Navigation area text hover/active color */
+
+    --body-bg:      #ffffff;
+    --body-bg2:     #efefef;
+}
+
+.site-container {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: var(--body-bg2);
+}
+
+.page {
+    background-color: var(--body-bg);
 }

@@ -3,12 +3,13 @@ import './resets.css'
 import Header from './header.js'
 import Footer from './footer.js'
 
-const Layout = ({ pageTitle, children }) => {
+const LayoutSingle = ({ children }) => {
     return (
         <div class="site-container">
             <Header></Header>
             <main>
-                Sidebar
+                
+                Single Width
                 {children}     
             </main>
             <Footer></Footer>
@@ -16,4 +17,4 @@ const Layout = ({ pageTitle, children }) => {
     ) 
 }
 
-export default Layout
+export default LayoutSingle

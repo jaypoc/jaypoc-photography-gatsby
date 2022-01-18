@@ -6,7 +6,7 @@ const SiteHeader = () => {
     return (
             <header className={siteHeader}>
                 <div className={siteHeaderBody}>
-                    <a href="#" class="brand"><img src="https://jaypoc.photography/wp-content/uploads/sites/4/2018/12/cropped-Jaypoc_Watermark_White-e1545969369376-4.png" alt="brand" /></a>
+                    <Link to="/"><img src="https://jaypoc.photography/wp-content/uploads/sites/4/2018/12/cropped-Jaypoc_Watermark_White-e1545969369376-4.png" alt="brand" /></Link>
                     <nav class={nav}>
                         <Link to="/" className={navLink}>Home</Link>
                         <Link to="/about" className={navLink}>About</Link>
