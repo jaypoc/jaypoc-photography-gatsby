@@ -1,8 +1,3 @@
-BODY { 
-    padding:0; 
-    margin:0
-}
-
 :root{
     --font: 'Assistant', sans-serif;  /* Site Main Font */
     
@@ -12,6 +7,12 @@ BODY {
 
     --body-bg:      #ffffff;
     --body-bg2:     #efefef;
+}
+
+BODY { 
+    padding:0; 
+    margin:0;
+    font-family: var(--font);
 }
 
 .site-container {
@@ -30,4 +31,9 @@ BODY {
 
 .page img {
     padding:20px;
+}
+.linked {
+    text-decoration: none; 
+    font-weight: bold;
+    color: #6f6f6f;
 }

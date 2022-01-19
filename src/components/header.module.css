@@ -1,5 +1,6 @@
 .siteHeader {
-    padding:40px 50px 0 40px;
+    padding:40px 50px 40px;
+    margin-bottom: 20px;
     display: flex;
     justify-content: center;
     align-content: flex-start;
@@ -12,6 +13,14 @@
     justify-content: space-between;
     align-items: center;
 }
+
+.siteHeaderBody img { 
+    transition: all .2s ease-in-out;
+}
+.siteHeaderBody img:hover { 
+    transform: scale(1.2);
+}
+
 .nav {
     display: flex;
     justify-content: center;
